@@ -1,0 +1,25 @@
+.about .emphasise-text {
+    color: orchid;
+}
+/* 
+.about > * {
+    border: 1px solid green;
+} */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about > h1, .about > h2 {
+    margin: 0;
+}
+
+.about > h1, .about > h1 > span {
+    font-size: 2rem;
+}
+
+.about > h2 {
+    font-size: 1.25rem;
+}

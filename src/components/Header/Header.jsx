@@ -1,9 +1,14 @@
 import './Header.css';
+import Photo from './Photo/Photo';
+import About from './About/About'
 
 export default function Header() {
   return (
     <div className="header">
-      <h1>Header/About</h1>
+      <div className="header-info">
+        <About />
+        <Photo />
+      </div>
     </div>
   );
 }

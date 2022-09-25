@@ -1,0 +1,8 @@
+.header-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    height: 20rem;
+    margin: 0 auto;
+    /* border: 1px blue solid; */
+}

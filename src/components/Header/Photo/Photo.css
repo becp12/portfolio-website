@@ -1,0 +1,10 @@
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo img {
+    border-radius: 4rem;
+    height: 17rem;
+}
