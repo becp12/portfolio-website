@@ -5,7 +5,7 @@ export default function NavBar() {
     <div className="navbar">
         <ul>
             <li>About</li>
-            <li>Languages</li>
+            <li>Skills</li>
             <li>Projects</li>
         </ul>
     </div>
