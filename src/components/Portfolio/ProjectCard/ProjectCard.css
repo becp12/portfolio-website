@@ -1,0 +1,55 @@
+.project-card {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.project-card > img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.project-card > h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* .project-card > h1 {
+    background-color: rgba(139, 139, 139, .75);
+    height: 4rem;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    padding-left: .5rem;
+    padding-top: 1rem;
+    top: 0;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+} */
+
+/* .project-card > button.github {
+    position: absolute;
+    top: 5.5rem;
+    text-align: left;
+    color: white;
+    width: 10rem;
+}
+
+.project-card > button.project {
+    position: absolute;
+    top: 9rem;
+    text-align: left;
+    color: white;
+    width: 10rem;
+} */
+
+.project-card > button {
+    width: 40%;
+    margin: 1rem;
+}
+
+.project-card > button > a {
+    text-decoration: none;
+    color: black;
+}

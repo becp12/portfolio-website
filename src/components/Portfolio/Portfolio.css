@@ -1,0 +1,10 @@
+.portfolio > h1 {
+    font-size: 2rem;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
