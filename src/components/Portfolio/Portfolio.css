@@ -1,6 +1,6 @@
 .portfolio {
+    width: 100%;
     padding-top: 2.6rem;
-    
 }
 
 .portfolio > h1 {
@@ -16,4 +16,35 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
 }
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .portfolio > h1 {
+        font-size: 3rem;
+        margin: 0;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .portfolio {
+        padding-top: 6rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .project-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .portfolio > h1 {
+        margin-bottom: 1rem;
+        /* margin: 0 auto 1rem;
+        width: 80%; */
+    }
+}
+

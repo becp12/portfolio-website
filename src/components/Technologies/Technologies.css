@@ -1,6 +1,6 @@
 .logo-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     margin: 0 auto;
     width: 100%;
@@ -40,4 +40,52 @@
     margin: 1rem 1rem;
     font-weight: bold;
     color: rgb(74, 47, 225);
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .technologies > h1 {
+        font-size: 3rem;
+        margin: 0;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .technologies > p {
+        font-size: 2.5rem;
+        margin: 1.5rem;
+        font-weight: bold;
+        color: rgb(74, 47, 225);
+    }
+    
+    .logo-container {
+        grid-gap: 1rem;
+        padding: 2rem .5rem 0 .5rem;
+        background-color: rgba(232, 231, 248, 0.3);
+        color: black;
+    }
+
+    .logo-container > img {
+        width: 5rem;
+    }
+
+    .technologies {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 6rem;
+    }
+
+    .logo-container > h1 {
+        padding-bottom: 1rem;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .logo-container {
+        width: 75%;
+        place-items: center;
+    }
 }

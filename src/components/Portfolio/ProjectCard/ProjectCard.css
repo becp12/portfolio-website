@@ -63,3 +63,70 @@
     color: white;
     font-size: 2rem;
 }
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .project-info-box {
+        width: 70%;
+        height: 30%;
+    }
+    
+    .project-info-box > h1 {
+        font-size: 4rem;
+        margin: 0;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .project-card {
+        position: relative;
+        width: 45%;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    .project-info-box {
+        position: absolute;
+        width: 80%;
+        height: 35%;
+        bottom: 2.25rem;
+        left: 2.25rem;
+    }
+    
+    .project-info-box > h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .project-card > img {
+        width: 100%;
+    }
+}
+
+/* For Larger Screens 4K resolution */
+@media screen and (min-width: 1201px) {
+    .project-card {
+        position: relative;
+        width: 45%;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    .project-info-box {
+        position: absolute;
+        width: 60%;
+        height: 20%;
+        bottom: 2.25rem;
+        left: 2.25rem;
+    }
+    
+    .project-info-box > h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .project-card > img {
+        width: 100%;
+    }
+}

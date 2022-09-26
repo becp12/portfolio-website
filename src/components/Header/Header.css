@@ -8,5 +8,26 @@
 }
 
 #about {
-    height: 4.5rem;
+    height: 6rem;
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .header-info {
+       height: 35rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .header-info {
+       height: 50rem;
+    }
+}
+
+/* For Larger Screens 4K resolution */
+@media screen and (min-width: 1700px) {
+    .header-info {
+        width: 50%;
+    }
 }

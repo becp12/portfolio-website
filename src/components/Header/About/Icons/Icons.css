@@ -1,9 +1,32 @@
 .icons {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
+    width: 100%;
 }
 
 .icons img {
     width: 3rem;
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .icons img {
+        width: 5rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .icons img {
+        width: 6rem;
+    }
+}
+
+/* For Larger Screens 4K resolution */
+@media screen and (min-width: 1201px) {
+    .icons {
+        width: 50%;
+        margin: 2rem auto 0;
+    }
 }

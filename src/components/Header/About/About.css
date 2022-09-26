@@ -1,10 +1,6 @@
 .about .emphasise-text {
     color: rgb(74, 47, 225);
 }
-/* 
-.about > * {
-    border: 1px solid green;
-} */
 
 .about {
     display: flex;
@@ -23,4 +19,36 @@
 .about > h2 {
     font-size: 1.25rem;
     margin-top: 1rem;
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .about > h1, .about > h1 > span {
+        font-size: 3.5rem;
+    }
+    
+    .about > h1, .about > h2 {
+        margin: 0 1rem;
+    }
+    
+    .about > h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .about > h1, .about > h1 > span {
+        font-size: 4.5rem;
+    }
+    
+    .about > h1, .about > h2 {
+        margin: 0 1rem;
+    }
+    
+    .about > h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
 }

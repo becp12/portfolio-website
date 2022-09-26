@@ -8,3 +8,18 @@
     border-radius: 4rem;
     height: 17rem;
 }
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .photo img {
+        height: 30rem;
+        margin-top: 1.5rem;
+    }
+}
+
+/* For Laptops/Desktops */
+@media screen and (min-width: 769px) {
+    .photo img {
+       height: 50rem;
+    }
+}
