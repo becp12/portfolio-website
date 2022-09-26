@@ -11,8 +11,8 @@
 
 .project-info-box {
     position: absolute;
-    background-color: rgba(139, 139, 139, .75);
-    border: .5rem solid rgba(139, 139, 139, 1);
+    background-color: rgba(72, 61, 139, .5);
+    border: .5rem solid rgba(72, 61, 139, 1);
     bottom: 2.25rem;
     left: 1.5rem;
     display: grid;
@@ -46,8 +46,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: .25rem solid rgba(77, 77, 77, 1);
-    background-color: rgba(77, 77, 77, 0.5);
+    border: .25rem solid rgba(72, 61, 139, 1);
+    background-color: rgba(72, 61, 139, .75);
     border-radius: 1rem;
     padding: 1rem;
     width: 100%;

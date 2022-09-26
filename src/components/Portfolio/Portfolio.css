@@ -1,6 +1,14 @@
+.portfolio {
+    padding-top: 2.6rem;
+    
+}
+
 .portfolio > h1 {
-    font-size: 2rem;
-    padding-top: 3rem;
+    margin-bottom: 0;
+    font-size: 2rem;  
+    padding: 1rem;
+    background-color: rgba(145, 96, 230, 0.5);
+    color: white;
 }
 
 .project-container {

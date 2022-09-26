@@ -4,11 +4,14 @@ import About from './About/About'
 
 export default function Header() {
   return (
-    <div className="header">
-      <div className="header-info">
-        <About />
-        <Photo />
+    <>
+      <div id="about">&nbsp;</div>
+      <div className="header">
+        <div className="header-info">
+          <About />
+          <Photo />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

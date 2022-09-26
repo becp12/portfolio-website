@@ -17,16 +17,16 @@ export default function Technologies() {
         <img src="https://i.imgur.com/leFdkwL.png" alt="" />
         {/* React */}
         <img src="https://i.imgur.com/RGavFiS.png" alt="" />
-        {/* Python */}
-        <img src="https://i.imgur.com/CqEO0w6.png" alt="" />
+        
         {/* ROW 2 */}
         <h1>HTML</h1>
         <h1>CSS</h1>
         <h1>Bootstrap</h1>
         <h1>JavaScript</h1>
         <h1>React</h1>
-        <h1>Python</h1>
         {/* ROW 3 */}
+        {/* Python */}
+        <img src="https://i.imgur.com/CqEO0w6.png" alt="" />
         {/* Node.js */}
         <img src="https://i.imgur.com/aZlVAxg.png" alt="" />
         {/* express */}
@@ -35,15 +35,21 @@ export default function Technologies() {
         <img src="https://i.imgur.com/TiDUvti.png" alt="" />
         {/* mongoDB */}
         <img src="https://i.imgur.com/bHffPog.png" alt="" />
-        {/* django */}
-        <img src="https://i.imgur.com/FLDpBt3.png" alt="" />
-        {/* postgresql */}
-        <img src="https://i.imgur.com/QrIH5i5.png" alt="" />
         {/* ROW 4 */}
+        <h1>Python</h1>
         <h1>Node.js</h1>
         <h1>Express</h1>
         <h1>Mongoose</h1>
         <h1>MongoDB</h1>
+        {/* ROW 5 */}
+        {/* django */}
+        <img src="https://i.imgur.com/FLDpBt3.png" alt="" />
+        {/* postgresql */}
+        <img src="https://i.imgur.com/QrIH5i5.png" alt="" />
+        <div></div>
+        <div></div>
+        <div></div>
+        {/* ROW 5 */}
         <h1>Django</h1>
         <h1>PostgreSQL</h1>
       </div>

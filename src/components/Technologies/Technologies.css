@@ -1,11 +1,14 @@
 .logo-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     margin: 0 auto;
     width: 100%;
     place-items: center;
     grid-gap: 1rem;
+    padding: 1rem .5rem 0 .5rem;
+    background-color: rgba(232, 231, 248, 0.3);
+    color: black;
 }
 
 .logo-container > img {
@@ -14,23 +17,27 @@
 
 .logo-container > h1 {
     padding-bottom: 1rem;
+    font-weight: 300;
 }
 
 .technologies {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 3.9rem;
 }
 
 .technologies > h1 {
     font-size: 2rem;
     margin: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(145, 96, 230, 0.5);
+    color: white;
 }
 
 .technologies > p {
     font-size: 1.5rem;
-    margin: 0 0 2rem 0;
+    margin: 1rem 1rem;
+    font-weight: bold;
+    color: rgb(74, 47, 225);
 }
-/* .logo-container > * {
-    border: 1px solid blue;
-} */
