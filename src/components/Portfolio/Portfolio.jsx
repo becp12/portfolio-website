@@ -9,7 +9,7 @@ export default function Portfolio() {
   });
 
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="projects">
       <h1>Portfolio</h1>
       <div className="project-container">
         {projectList}

@@ -2,7 +2,7 @@ import './Technologies.css';
 
 export default function Technologies() {
   return (
-    <div className="technologies">
+    <div className="technologies" id="skills">
       <h1>Skills</h1>
       <p>I've worked with a range of technologies.</p>
       <div className="logo-container">

@@ -4,9 +4,9 @@ export default function NavBar() {
   return (
     <div className="navbar">
         <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
     </div>
   );
