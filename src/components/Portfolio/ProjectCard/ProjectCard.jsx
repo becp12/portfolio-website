@@ -11,17 +11,21 @@ export default function ProjectCard({ project }) {
 
     return (
         <div className="project-card">
-            <h1>{project.title}</h1>
-            <button className="project">
+            <div className="project-info-box">
+                <h1>{project.title}</h1>
                 <a href={project.projectLink} target="_blank" rel="noreferrer">
-                    Deployed Project
+                    <div>
+                        <img src="https://i.imgur.com/VKGwL6z.png" alt="" />
+                        <p>Website</p>
+                    </div>
                 </a>
-            </button>
-            <button className="github">
                 <a href={project.githubLink} target="_blank" rel="noreferrer">
-                    GitHub
+                    <div>
+                        <img src="https://i.imgur.com/dtDb5MQ.png" alt="" />
+                        <p>Source</p>
+                    </div>
                 </a>
-            </button>
+            </div>
             <img src={project.thumbnailPath} alt="" />
         </div>
     );
