@@ -4,7 +4,7 @@ export default function Technologies() {
   return (
     <div className="technologies" id="skills">
       <h1>Skills</h1>
-      <p>I've worked with a range of technologies.</p>
+      <p>I've worked with a range of technologies and always willing to learn more!</p>
       <div className="logo-container">
         {/* ROW 1 */}
         {/* HTML */}
