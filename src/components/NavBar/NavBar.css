@@ -24,6 +24,10 @@
     font-weight: bold;
 }
 
+.navbar a:hover {
+    color: darkslateblue;
+}
+
 /* For Tablets */
 @media screen and (min-width: 481px) {
     .navbar {
