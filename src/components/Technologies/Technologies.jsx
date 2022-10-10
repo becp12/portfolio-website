@@ -44,7 +44,7 @@ export default function Technologies() {
         <img src="https://i.imgur.com/FLDpBt3.png" alt="" />
         {/* postgresql */}
         <img src="https://i.imgur.com/QrIH5i5.png" alt="" />
-        {/* ROW 5 */}
+        {/* ROW 6 */}
         <h1>Mongoose</h1>
         <h1>MongoDB</h1>
         <h1>Django</h1>

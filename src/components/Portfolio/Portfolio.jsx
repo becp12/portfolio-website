@@ -10,7 +10,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="projects">
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <div className="project-container">
         {projectList}
       </div>
