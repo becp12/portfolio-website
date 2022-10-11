@@ -1,0 +1,63 @@
+.contact h1 {
+    font-size: 2rem;
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(145, 96, 230, 0.5);
+    color: white;
+}
+
+.contact > div > a {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 2rem auto;
+    width: 60%;
+    /* place-items: center; */
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.contact > div > a > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(74, 47, 225);
+}
+
+.contact img {
+    width: 4rem;
+    margin: 1rem;
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) {
+    .contact > h1 {
+        font-size: 3rem;
+        margin: 0;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .contact > div > a > p {
+        font-size: 2.5rem;
+        margin: 1.5rem;       
+    }
+
+    .contact img {
+        width: 4rem;
+        margin: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 1441px) {
+    .contact > div > a > p {
+        font-size: 4rem;
+        margin: 1.5rem;       
+    }
+
+    .contact img {
+        margin: 1rem;
+        width: 6rem;
+    }
+}
