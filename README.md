@@ -1,5 +1,5 @@
 # Rebecca Preece's Software Engineer Portfolio
-My name is Rebecca Preece and this is the repo for my software engineering portfolio.
+My name is Rebecca Preece and this is the repo for my Software Engineering Portfolio.
 
 [Click to view Portfolio!](https://becp12.github.io/portfolio-website/)
 
@@ -24,8 +24,10 @@ My name is Rebecca Preece and this is the repo for my software engineering portf
 
 # Going forward...  
 - Add animation effects
-- Add more projects as I make more
+- Add more projects as I continue to create more
 - Add more technologies as I continue to learn
 - Add a contact section
 
 [Click to view Portfolio!](https://becp12.github.io/portfolio-website/)
+
+<!-- TO RUN NEW DEPLOYMENT: npm run deploy -->
