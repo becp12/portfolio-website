@@ -14,7 +14,7 @@ export const projects = [
     {
         "thumbnailPath": "https://i.imgur.com/2C9wlnj.png",
         "title": "In The Loop",
-        "projectLink": "https://in-the-loop-crochet.herokuapp.com/projects",
+        "projectLink": "https://in-the-loop.azurewebsites.net/projects",
         "githubLink": "https://github.com/becp12/in-the-loop",
     },
     {
