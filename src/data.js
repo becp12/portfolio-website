@@ -2,7 +2,7 @@ export const projects = [
     {
         "thumbnailPath": "https://i.imgur.com/bIFJfHA.png",
         "title": "ConsoleLog",
-        "projectLink": "https://consolelogapp.herokuapp.com/",
+        "projectLink": "https://console-log.azurewebsites.net/",
         "githubLink": "https://github.com/becp12/ConsoleLog",
     },
     {
