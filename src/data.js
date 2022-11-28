@@ -5,12 +5,12 @@ export const projects = [
         "projectLink": "https://console-log.azurewebsites.net/",
         "githubLink": "https://github.com/becp12/ConsoleLog",
     },
-    {
-        "thumbnailPath": "https://i.imgur.com/2uroDuX.png",
-        "title": "Simply Recipes",
-        "projectLink": "https://simply-recipes-621.herokuapp.com/",
-        "githubLink": "https://github.com/becp12/recipeapp",
-    },
+    // {
+    //     "thumbnailPath": "https://i.imgur.com/2uroDuX.png",
+    //     "title": "Simply Recipes",
+    //     "projectLink": "https://simply-recipes-621.herokuapp.com/",
+    //     "githubLink": "https://github.com/becp12/recipeapp",
+    // },
     {
         "thumbnailPath": "https://i.imgur.com/2C9wlnj.png",
         "title": "In The Loop",
