@@ -18,6 +18,7 @@ export default function ProjectCard({ project }) {
         <div className="project-card">
             <div className="project-info-box">
                 <h1>{project.title}</h1>
+                {project.projectLink.length > 0 && (
                 <a href={project.projectLink} target="_blank" rel="noreferrer">
                     <div className="website-button" onMouseEnter={handleWebHover} onMouseLeave={handleWebHover}>
                         {/* standard */}
@@ -27,6 +28,7 @@ export default function ProjectCard({ project }) {
                         <p>Website</p>
                     </div>
                 </a>
+                )}
                 <a href={project.githubLink} target="_blank" rel="noreferrer">
                     <div className="github-button" onMouseEnter={handleGitHover} onMouseLeave={handleGitHover}>
                         {/* standard */}

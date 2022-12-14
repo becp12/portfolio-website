@@ -1,6 +1,7 @@
 import './Header.css';
 import Photo from './Photo/Photo';
 import About from './About/About'
+import Description from './About/Description'
 
 export default function Header() {
   return (
@@ -10,6 +11,9 @@ export default function Header() {
         <div className="header-info">
           <About />
           <Photo />
+        </div>
+        <div>
+          <Description />
         </div>
       </div>
     </>

@@ -23,4 +23,10 @@ export const projects = [
         "projectLink": "https://becp12.github.io/Blackjack/",
         "githubLink": "https://github.com/becp12/Blackjack",
     },
+    {
+        "thumbnailPath": "https://i.imgur.com/O9FtjUg.png",
+        "title": "Hackathon 2022",
+        "projectLink": "",
+        "githubLink": "https://github.com/becp12/team-5-workathon",
+    },
 ]
